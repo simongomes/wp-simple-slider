@@ -1,0 +1,40 @@
+.slider-wrapper {
+  width: 60vw;
+  margin: 0 auto;
+}
+.wp-simon-slider {
+  width: 100%;
+}
+.wp-simon-slider .slider-item {
+  width: 100%;
+}
+.wp-simon-slider .slider-item img {
+  width: 100%;
+}
+
+.wp-simon-slider .slick-dots {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.wp-simon-slider .slick-dots li {
+  list-style: none;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.wp-simon-slider .slick-dots li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.wp-simon-slider .slick-dots li button {
+  display: none;
+}

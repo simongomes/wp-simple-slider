@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/wp-simon-slider.css" />
+  </head>
+  <body>
+    <div class="slider-wrapper">
+      <div class="wp-simon-slider">
+        <div class="slider-item">
+          <img src="images/slider-image1.jpg" alt="" />
+        </div>
+        <div class="slider-item">
+          <img src="images/slider-image2.jpg" alt="" />
+        </div>
+        <div class="slider-item">
+          <img src="images/slider-image3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script>
+      (function ($) {
+        $(".wp-simon-slider").slick({
+          autoplay: true,
+          arrows: false,
+          dots: true,
+        });
+      })(jQuery);
+    </script>
+  </body>
+</html>
